@@ -10,10 +10,13 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
+        "itsmejoshua/novaspatiepermissions": "^1.0",
         "laravel/framework": "^9.19",
         "laravel/nova": "4.15.2",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
+        "maatwebsite/excel": "^3.1",
+        "psr/simple-cache": "2.0",
         "spatie/laravel-permission": "^5.5"
     },
     "require-dev": {
