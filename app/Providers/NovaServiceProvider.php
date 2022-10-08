@@ -32,7 +32,6 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                     MenuItem::link('Roles', '/resources/roles'),
 //                    MenuItem::link('Permission', '/resources/permissions'),
                 ])->icon('users')->collapsable(),
-                MenuSection::resource(DailyDiners::class)->icon('calendar'),
                 MenuSection::resource(Department::class)->icon('collection'),
 
             ];
